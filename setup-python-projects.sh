@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Collective Intelligence Integration
+source "$(dirname "${BASH_SOURCE[0]}")/collective-intelligence/integrate.sh"
+
+
 # Script to set up VS Code project-specific settings for each Python project
 
 # Find all directories directly under projects/ that contain a .venv folder
